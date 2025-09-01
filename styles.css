@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.personagem {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagem-ataque {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: transparent;
+}
